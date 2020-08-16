@@ -8,7 +8,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Main} />
-      <Route path="/repositorio" component={Repository} />
+      <Route path="/repositorio/:repository" component={Repository} />
     </BrowserRouter>
   );
 };
