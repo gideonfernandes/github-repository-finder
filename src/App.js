@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Routes from './routes';
+
 function App() {
-  return <h1>Hello World from Github Repository Finder</h1>;
+  return <Routes/>;
 };
 
 export default App;
